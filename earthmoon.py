@@ -22,7 +22,7 @@ earth.p = earth.pos + earthv
 moon = sphere(pos=vec(-REM,0,0), radius=RM, color=color.white, make_trail=True)
 moon.m = MM
 moonv = vec(0,0,(28.9/360))
-'''
+
 for i in range(1000):
     rate(1)
     moon.pos += moonv
@@ -31,4 +31,3 @@ for i in range(1000):
     Fg = Director*RadialVector/dist**2
     moonv = moonv + Fg
     if dist <= earth.radius: break
-'''

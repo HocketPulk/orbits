@@ -1,0 +1,3 @@
+# orbits
+Orbits is an ongoing project on modeling celestial objects in 3D using Python. Currently I am using the package vpython to provide the objects in the simulation (sphere(), trails()). My research partner, Mike Matheny has been working along with me since the summer of 2018 when we started to work on WDS 21200+5259. WDS 21200+5259 is a potential optical binary, there is room to argue that these two objects may be indeed be slow orbiting binary stars. 
+For this project we first modeled the Earth/Moon system to see what it would take to have objects orbit each other using Newtonian physics. We incorporated Keplar's laws in the behaviour of the objects. This gives us the eliptical orbits that the two masses would produce.
